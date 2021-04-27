@@ -46,7 +46,7 @@ function changeColor(e){
                 if (horizontalCheck() || veritcalCheck() || diagonalCheck1() || diagonalCheck2()){
                     playerTurn.textContent = `${player1} WINS!`;
                     playerTurn.style.color = player1Color;
-                    return(alert(`${player1} WINS!`));
+                    return;
                 }else if(drawCheck()){
                     playerTurn.textContent = "IT'S A TIE!";
                     return alert("IT'S A TIE!");
@@ -61,10 +61,10 @@ function changeColor(e){
             if (horizontalCheck() || veritcalCheck() || diagonalCheck1() || diagonalCheck2()){
                 playerTurn.textContent = `${player2} WINS!`;
                 playerTurn.style.color = player2Color;
-                return(alert(`${player2} WINS!`));
+                return;
             }else if(drawCheck()){
                 playerTurn.textContent = "IT'S A TIE!";
-                return alert("IT'S A TIE!");
+                return;
             }else{
             playerTurn.textContent = `${player1}'s turn!`;
             return currentPlayer = 1;
@@ -137,6 +137,7 @@ function drawCheck(){
 reset.addEventListener('click', ()=>{
     tableSlot.forEach(slot =>{
         slot.style.backgroundColor = 'white';
+        playerTurn.style.color ='white';
 
     });
     playerTurn.style.Color = 'black';
