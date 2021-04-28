@@ -67,6 +67,34 @@
     </table>
 </div>
 
+<!-- Instructions popup -->
+
+<!-- <div class="instructions">Instructions</div> -->
+
+<div class ='popup' id='popup-1'>
+    <div class='overlay'></div>
+    <div class='content'>
+        <div class='close-btn' onclick='togglePopup()'>&times;
+</div> 
+    <h3>HOW TO PLAY</h3>
+    <p> 1. Player one will go first. Players will alternate turns after playing the first piece.
+        <br><br>
+        2. On your turn, place one of you pieces in ANY of the slots by selecting one of the columns on the grid. 
+        <br><br>
+        3. Play alternates until one player gets FOUR pieces of his or her color in a row. The four in a row can be horizontal, vertical, or diagonal.
+        <br><br>
+        <h3>HOW TO WIN</h3>
+        <br>
+        If you are the first player to get four of your pieces in a row, you win the game!
+        <br><br>
+        <h3>START ANOTHER GAME</h3>
+        <br>
+        Simply click the reset button at the bottom of the game board. </p>
+    </div>
+</div>
+
+<button class="instructions" onclick='togglePopup()'>Instructions</button>
+
 <div class="reset">Reset</div>
 
     <script src="app.js"></script>

@@ -134,6 +134,10 @@ function drawCheck(){
 }
 }
 
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+}
+
 reset.addEventListener('click', ()=>{
     tableSlot.forEach(slot =>{
         slot.style.backgroundColor = 'white';

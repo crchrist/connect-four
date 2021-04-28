@@ -21,7 +21,8 @@ If you are the first player to get four of your pieces in a row, you win the gam
 Simply click the reset button at the bottom of the game board. 
 
 ## Start Up Screen:
-Images of the start up screen go here 
+<!-- Images of the start up screen go here  -->
+/Users/codychrist/Desktop/SEI-412/unit_one/deliverables/project-1-example/Screen Shot 2021-04-27 at 1.52.05 PM.png
 
 # HOW TO INSTALL
 

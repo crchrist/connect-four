@@ -10,25 +10,25 @@
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. The proposal for my Connent Four game was creatded and laid the initial foundation for how I want to build out my game.  
+2. Today I want to create the basic foundation of the game and have something remotely playable/funtional.
+3. Not at this time. 
 
 # Tuesday
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. I created a playable/funtioning game for two players that is able to determine a winner. 
+2. Goal for today is to clean up the some of the styling of the game and play through to make sure there are no changes or updates I need to make. 
+3. At this time my winning message is set as an alert which does not meet the requirements. Finding/implementing a winning message on the game is a current blocker I am having. 
 
 # Wednesday
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. Yesterday I got almost all of the styling I want to have done for the game. I am very happy with the presentation of the game at this point. 
+2. Goals for today is to complete the readme file and to create/implement the instructions for the game onto the page. Additional goal is to clear blocker(see below).
+3. Currently when the game has been won, the winning players color can continue to be played to fill up the remainder of the board. I have been unable to prevent this from happening. 
 
 # Thursday
 - [x] What did you achieve yesterday?

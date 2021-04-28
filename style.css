@@ -51,10 +51,87 @@
         border-radius: 50%;
     }
 
+    .instructions{
+      position: absolute;
+      top: 85vh;
+      left: 40%;
+      transform: translate(-50%);
+      text-align: center;
+      cursor: pointer;
+      background-color: #4370F1;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 15px 30px;
+      text-transform: uppercase;
+  }
+
+    
+  
+    .popup .overlay {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,0.7);
+      z-index: 1;
+      display:none;
+    }
+
+    .popup .content {
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%) scale(0);
+      background:yellow;
+      width:450px;
+      height: 450px;
+      z-index: 2;
+      text-align: center;
+      padding:20px;
+      box-sizing: border-box;
+      border-radius: 10%;
+    }
+
+    h3 {
+      color:blue;
+      font-size: xx-large;
+    }
+
+    .popup .close-btn {
+      cursor: pointer;
+      position:absolute;
+      right:20px;
+      top:20px;
+      width:30px;
+      height:30px;
+      background:blue;
+      color:white;
+      font-size:25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .popup.active .overlay {
+      display: block;
+    }
+
+    .popup.active .content {
+      transition:all 300ms ease-in-out;
+      transform:translate(-50%, -50%) scale(1);
+    }
+
+    
     .reset{
         position: absolute;
         top: 85vh;
-        left: 50%;
+        left: 60%;
         transform: translate(-50%);
         text-align: center;
         cursor: pointer;
@@ -76,4 +153,6 @@
         background-color: #4d7ef1;
       
       }
+
+      
     
