@@ -4,6 +4,12 @@
       box-sizing: border-box;
   }
 
+  body {
+    background-image: url("https://st2.depositphotos.com/4112313/6977/v/600/depositphotos_69779337-stock-illustration-abstract-bright-blue-geometric-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   h1{
       text-align: center;
       Color: blue;
@@ -39,8 +45,8 @@
       background: yellow;
       border: 12px solid blue;
       border-radius: 8%;
-      box-shadow: 15px 15px rgb(131, 128, 128);
-      padding: 1.5rem;
+      box-shadow: 5px 5px rgb(131, 128, 128);
+      padding: 1rem;
     }
 
     .slot{
