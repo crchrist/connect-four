@@ -49,7 +49,7 @@ function changeColor(e){
                     return;
                 }else if(drawCheck()){
                     playerTurn.textContent = "IT'S A TIE!";
-                    return alert("IT'S A TIE!");
+                    return;
                 }else{
                 playerTurn.textContent = `${player2}'s turn!`;
                 return currentPlayer = 2;
@@ -112,7 +112,7 @@ function diagonalCheck1(){
 
 function diagonalCheck2(){
     for (let col = 0; col < 4; col++){
-        for (let row = 5; row < 2; row--){
+        for (let row = 5; row > 2; row--){
             if(colorMatchCheck(tableRow[row].children[col].style.backgroundColor, tableRow[row-1].children[col+1].style.backgroundColor,
                 tableRow[row-2].children[col+2].style.backgroundColor, tableRow[row-3].children[col+3].style.backgroundColor)){
                     return true;
