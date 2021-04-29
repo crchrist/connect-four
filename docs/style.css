@@ -4,6 +4,8 @@
       box-sizing: border-box;
   }
 
+
+
   body {
     background-image: url("https://st2.depositphotos.com/4112313/6977/v/600/depositphotos_69779337-stock-illustration-abstract-bright-blue-geometric-background.jpg");
     background-repeat: no-repeat;
@@ -14,13 +16,12 @@
       text-align: center;
       Color: blue;
       font-size: 100px;
-      font-family: 'Kanit', sans-serif;
-      font-style: italic;
+    
   }
 
   .player-turn{
     position: absolute;
-        top: 15vh;
+        top: 13vh;
         left: 50%;
         transform: translate(-50%);
         text-align: center;
@@ -34,7 +35,6 @@
         font-weight: bold;
         padding: 15px 30px;
         text-transform: uppercase;
-        font-family: 'Kanit', sans-serif;
   }
 
   .game{
@@ -61,7 +61,7 @@
 
     .instructions{
       position: absolute;
-      top: 90vh;
+      top: 85vh;
       left: 40%;
       transform: translate(-50%);
       text-align: center;
@@ -75,17 +75,10 @@
       font-weight: bold;
       padding: 15px 30px;
       text-transform: uppercase;
-      font-family: 'Kanit', sans-serif;
   }
 
-  .instructions:hover {
-    background-color: #1D50F1;
-  }
+    
   
-  .instructions:active {
-    background-color: #4d7ef1;
-  }
-
     .popup .overlay {
       position: fixed;
       top: 0px;
@@ -104,19 +97,17 @@
       transform:translate(-50%, -50%) scale(0);
       background:yellow;
       width:450px;
-      height: 550px;
+      height: 450px;
       z-index: 2;
       text-align: center;
       padding:20px;
       box-sizing: border-box;
       border-radius: 10%;
-      font-family: 'Kanit', sans-serif;
     }
 
     h3 {
       color:blue;
       font-size: xx-large;
-      font-family: 'Kanit', sans-serif;
     }
 
     .popup .close-btn {
@@ -135,14 +126,6 @@
       border-radius: 50%;
     }
 
-    .close-btn:hover {
-      background-color: #1D50F1;
-    }
-    
-    .close-btn:active {
-      background-color: #4d7ef1;
-    }
-
     .popup.active .overlay {
       display: block;
     }
@@ -152,9 +135,10 @@
       transform:translate(-50%, -50%) scale(1);
     }
 
+    
     .reset{
         position: absolute;
-        top: 90vh;
+        top: 85vh;
         left: 60%;
         transform: translate(-50%);
         text-align: center;
@@ -168,13 +152,15 @@
         font-weight: bold;
         padding: 15px 30px;
         text-transform: uppercase;
-        font-family: 'Kanit', sans-serif;
     }
-
     .reset:hover {
         background-color: #1D50F1;
       }
       
       .reset:active {
         background-color: #4d7ef1;
+      
       }
+
+      
+    
