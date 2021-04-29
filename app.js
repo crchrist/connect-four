@@ -13,13 +13,13 @@ for(let i = 0; i< tableCell.length; i++){
 }
 
 while(!player1){
-    var player1 = prompt('Player One: Enter your name. You will be red');
+    var player1 = prompt('Player One: Enter your name. You will be red.');
 }
 
 player1Color = 'red';
 
 while(!player2){
-    var player2 = prompt('Player Two: Enter your name. You will be black');
+    var player2 = prompt('Player Two: Enter your name. You will be black.');
 }
 
 player2Color = 'black';

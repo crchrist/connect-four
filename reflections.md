@@ -34,9 +34,9 @@
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. While working to resolve yesterdays blocker, I found that one of the diagonal checks was not functioning properly, causing the game to continue even though four in a row was completed. I was able to debug this issue. I was also able to implement the instructions to the page via a popup button.  
+2. Today I would like to complete the blocker for yesterday as I was not able to get that completed. I would also like to implement media sizing to the page.  
+3. The blocker today is the same as yesterday as I found a new blocker while trying to fix the previous one. Yesterday I found that one of the diagnoal checks was not being implemented and allowing the game to continue even though four-in-a-row had been accomplished. This took priority yesterday and was completed. 
 
 # Friday
 - [x] What did you achieve yesterday?
