@@ -31,11 +31,11 @@ Simply click the reset button at the bottom of the game board.
 
 # HOW TO INSTALL
 
-## Example
 1. *`Fork`* and *`Clone`* this respository to your local machine
 2. Open `index.html` in your browser to play or 
 3. Open the directory in your text editor of choice to view or edit the code
 
+## PLAY ONLINE
 https://crchrist.github.io/connect-four/
 
 
@@ -207,3 +207,5 @@ for (let i = 5; i > -1; i--){
 - Add effect of pieces hovering over column before placement. 
 <br>
 - Add button to change player name rather than alert on page open. 
+<br>
+- Add media query 
