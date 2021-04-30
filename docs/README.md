@@ -22,7 +22,8 @@ Simply click the reset button at the bottom of the game board.
 
 ## Start Up Screen:
 <!-- Images of the start up screen go here  -->
-![Startup-Image](https://github.com/crchrist/connect-four/blob/main/docs/Screen%20Shot%201.png?raw=true)
+
+
 
 # HOW TO INSTALL
 
