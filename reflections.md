@@ -42,7 +42,13 @@
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. I completed all of the styling for the game to get it ready to be presentable. I ran into an issue with the sizing and placement of the instructions and reset button that I had to work out as well. 
+2. Goals for today are to present the project without any flaws.
+3. N/A
 
+# 1 What HTML, CSS, and or JavaScript skills you learned while building your game?
+ - [x] Although we touched on it in class, I feel like I really learned the function skill in javascript. Being able to apply this to a live application and watch it work really helped solidify what was going on within a function. The functions I creted seemed very simplistic in the broad scope of what a function can cover though. 
+
+
+# 2 What's one topic you want to spend more practice on?
+- [x] One topic I want to spend more time on is styling with CSS. The idea of it seems so simplistic but seems to cause a wide variety of issues while trying to implement. Even though that is the case, I love the instant gratification of being able to implement something in CSS and see it come onto the page with a simple refresh. 
